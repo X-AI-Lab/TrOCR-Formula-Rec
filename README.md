@@ -108,9 +108,7 @@ dataset
 
 ### 📞 微信交流群
 
-<div>
-    <img src="https://github.com/SWHL/TrOCR-Formula-Rec/releases/download/v0.0.0/20240909-081329.jpeg" width="25%" >
-</div>
+微信关注公众号：RapidAI, 后台回复“公式识别”即可进群
 
 ### 📚 Reference
 
