@@ -31,10 +31,10 @@ pixel_values = processor(img, return_tensors="pt").pixel_values
 pixel_values = pixel_values.to(device)
 print(pixel_values.shape)
 
-s3 = time.perf_counter()
-
 generated_ids = model.generate(pixel_values)
 generated_text = processor.batch_decode(generated_ids, skip_special_tokens=True)[0]
+s3 = time.perf_counter()
+
 print(generated_text)
 print(f"loading_model: {s2 - s1}s")
 print(f"infer: {s3 - s2}s")
