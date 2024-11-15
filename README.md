@@ -16,6 +16,7 @@
 
 #### TODO
 
+- [ ] 给出速度基准
 - [ ] 推理采用Flash Attention加速。（transformers==4.44.2中VisionEncoderDecoderModel不支持）
 - [ ] 转ONNX模型，并比较推理速度
 - [ ] 尝试使用xformers来优化推理速度
